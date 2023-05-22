@@ -34,8 +34,8 @@ fr:
     until: "jusqu'au %{date}"
     days_of_week: '%{segments} %{day}'
     days_of_month:
-      other: '%{segments} jours du mois'
-      one: '%{segments} jours du mois'
+      other: '%{segments} du mois'
+      one: '%{segments} du mois'
     days_of_year:
       other: "%{segments} jours de l'année"
       one: "%{segments} jours de l'année"
@@ -64,10 +64,10 @@ fr:
       one: Quotidien
       other: Tous les %{count} jours
     each_week:
-      one: Hebdomadaire
+      one: Tous
       other: Toutes les %{count} semaines
     each_month:
-      one: Mensuel
+      one: Tous
       other: Tous les %{count} mois
     each_year:
       one: Annuel
@@ -81,8 +81,8 @@ fr:
         -2: avant-derniers
       ordinal: '%{number}%{ordinal}'
       ordinals:
-        default: '°'
-        1: °
+        default: ''
+        1: 'er'
     on_weekends: pendant les weekends
     on_weekdays: pendant les jours ouvrés
     days_on:
